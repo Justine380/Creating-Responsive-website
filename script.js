@@ -44,7 +44,7 @@ menuBar.addEventListener('click',function () {
     }    
 
 window.addEventListener('resize', function() {
-    if(window.innerWidth > 576){
+    if(this.innerWidth > 576){
         searchButtonIcon.classList.replace('bx-x', 'bx-search');
         searchForm.classList.remove('show');   
     }
